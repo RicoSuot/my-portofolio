@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
-      <NavLink className="navbar-brand navbar-logo" to="/" exact>
+      <NavLink className="navbar-brand navbar-logo" to="/">
         Rico
       </NavLink>
 
@@ -72,29 +72,29 @@ const Navbar = () => {
           </div>
 
           <li className="nav-item active">
-            <NavLink className="nav-link" to="/home" exact>
+            <NavLink className="nav-link" to="/">
               <i className="fas fa-tachometer-alt"></i>Home
             </NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about" exact>
+            <NavLink className="nav-link" to="/about">
               <i className="far fa-address-book"></i>About
             </NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/resume" exact>
+            <NavLink className="nav-link" to="/resume">
               <i className="far fa-clone"></i>Resume
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/portofolio" exact>
+            <NavLink className="nav-link" to="/portofolio">
               <i className="far fa-chart-bar"></i>Portofolio
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/contact" exact>
+            <NavLink className="nav-link" to="/contact">
               <i className="far fa-copy"></i>Contact
             </NavLink>
           </li>

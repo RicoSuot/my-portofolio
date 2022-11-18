@@ -12,17 +12,13 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/home" element={<Hero />} />
+          <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portofolio" element={<Portofolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-
-      {/* <!-- ======= Footer ======= --> */}
-
-      {/* <!-- End  Footer --> */}
     </>
   );
 }

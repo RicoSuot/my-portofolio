@@ -33,58 +33,57 @@ const Contact = () => {
   };
   return (
     <div>
-      {" "}
       {/* <!-- ======= Contact Section ======= --> */}
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
+      <section id="contact" className="contact">
+        <div className="container" data-aos="fade-up" data-aos-duration="1500">
+          <div className="section-title">
             <h2>Contact</h2>
-            <p>If you’d like to chat about me or just have question, please fill in the form below</p>
+            <p>If you have any question please fill the from bellow</p>
           </div>
 
-          <div class="row mt-5">
-            <div class="col-lg-4">
-              <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
+          <div className="row mt-5">
+            <div className="col-lg-4">
+              <div className="info">
+                <div className="address">
+                  <i className="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
                   <p>Manado, Indonesia</p>
                 </div>
 
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
+                <div className="email">
+                  <i className="bi bi-envelope"></i>
                   <h4>Email:</h4>
                   <p>ricooliversuot@gmail.com</p>
                 </div>
 
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
+                <div className="phone">
+                  <i className="bi bi-phone"></i>
                   <h4>Call:</h4>
                   <p>+6285256848898</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-8 mt-5 mt-lg-0">
-              <form class="php-email-form" onSubmit={sendMail}>
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" value={name} onChange={handleName} class="form-control" id="name" placeholder="Your Name" required />
+            <div className="col-lg-8 mt-5 mt-lg-0">
+              <form className="php-email-form" onSubmit={sendMail}>
+                <div className="row">
+                  <div className="col-md-6 form-group">
+                    <input type="text" name="name" value={name} onChange={handleName} className="form-control" id="name" placeholder="Your Name" required />
                   </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" name="email" value={email} onChange={handleEmail} class="form-control" id="email" placeholder="Your Email" required />
+                  <div className="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" name="email" value={email} onChange={handleEmail} className="form-control" id="email" placeholder="Your Email" required />
                   </div>
                 </div>
 
-                <div class="form-group mt-3">
-                  <textarea name="message" value={message} onChange={handleMessage} class="form-control" rows="5" placeholder="Message" required></textarea>
+                <div className="form-group mt-3">
+                  <textarea name="message" value={message} onChange={handleMessage} className="form-control" rows="5" placeholder="Message" required></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div className="my-3">
+                  <div className="loading">Loading</div>
+                  <div className="error-message"></div>
+                  <div className="sent-message">Your message has been sent. Thank you!</div>
                 </div>
-                <div class="text-center">
+                <div className="text-center">
                   <button type="submit">Send Message</button>
                 </div>
               </form>

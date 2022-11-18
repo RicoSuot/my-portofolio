@@ -2,11 +2,11 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div>
+    <>
       {/* <!-- ======= Resume Section ======= --> */}
-      <section id="resume" class="resume">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
+      <section id="resume" className="resume">
+        <div className="container" data-aos="fade-up" data-aos-duration="1500">
+          <div className="section-title">
             <h2>Resume</h2>
             <p>
               Dari latar belakang jurusan saya yaitu Sarjana Komputer saya ingin meneruskan passion saya di bidang IT sebagai Front End Developer. Saya belum memiliki pengalaman kerja di bidang Frontend web tapi saya memiliki kemampuan
@@ -14,41 +14,41 @@ const Resume = () => {
             </p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6">
-              <h3 class="resume-title">Work Experience</h3>
-              <div class="resume-item">
+          <div className="row">
+            <div className="col-lg-6">
+              <h3 className="resume-title">Work Experience</h3>
+              <div className="resume-item">
                 <h4>Operator / IT Support</h4>
                 <h5>2021 - 2022</h5>
                 <p>
                   <em>Direktorat Binmas Polda Sulut</em>
                 </p>
-                <p>
+                <span>
                   <ul>
                     <li>Troubleshooting & Maintenance, Hardware, Software dan Jaringan</li>
                     <li>Mengkompulir Data Binmas Dari Mabes Polri dan Wilayah Polda Sulut</li>
                     <li>Membuat Surat Telegram, Sprin, Nota Dinas ke wilayah atau ke Mabes Polri</li>
                   </ul>
-                </p>
+                </span>
               </div>
-              <div class="resume-item">
+              <div className="resume-item">
                 <h4>PIC / Team Leader Mitra Telkom</h4>
                 <h5>2019 - 2020</h5>
                 <p>
                   <em>Pater Noster mitra Telkom Akses</em>
                 </p>
-                <p>
+                <span>
                   <ul>
                     <li>Mengontrol jalannya pekerjaan dan proyek sesuai rencana</li>
                     <li>Mengkompulir dan membuat laporan tentang pemasangan jaringan, migrasi jaringan, dan gangguan jaringan ke manager</li>
                   </ul>
-                </p>
+                </span>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
+            <div className="col-lg-6">
+              <h3 className="resume-title">Education</h3>
+              <div className="resume-item">
                 <h4>Sistem Informasi</h4>
                 <h5>2015 - 2019</h5>
                 <p>
@@ -61,7 +61,7 @@ const Resume = () => {
         </div>
       </section>
       {/* <!-- End Resume Section --> */}
-    </div>
+    </>
   );
 };
 
